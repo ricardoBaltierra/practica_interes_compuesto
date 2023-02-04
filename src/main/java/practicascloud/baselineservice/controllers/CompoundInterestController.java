@@ -13,12 +13,6 @@ public class CompoundInterestController {
 	
 	@Autowired
 	CompoundInterestService service;
-	
-    @GetMapping()
-    public String getSaludo() {
-        String saludo = "HOLA";
-        return saludo;
-    }
 
     @PostMapping()
     @RequestMapping("/calculate")
